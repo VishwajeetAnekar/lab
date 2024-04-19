@@ -1,0 +1,142 @@
+extract.csv,extract-old.csv,Status,Result
+TRANSACTION_DATE,TRANSACTION_DATE,Pass,Column names match
+PHARMACY_TRANSACTION_ID,PHARMACY_TRANSACTION_ID,Pass,Column names match
+RESTATEMENT_FLAG,RESTATEMENT_FLAG,Pass,Column names match
+TRANSACTION_TYPE,TRANSACTION_TYPE,Pass,Column names match
+REFERRAL_NUMBER,REFERRAL_NUMBER,Pass,Column names match
+REFERRAL_SOURCE,REFERRAL_SOURCE,Pass,Column names match
+REFERRAL_DATE,REFERRAL_DATE,Pass,Column names match
+BRAND,BRAND,Pass,Column names match
+NDC,NDC,Pass,Column names match
+MEDICATION,MEDICATION,Pass,Column names match
+PRIMARY_DIAGNOSIS_CODE,PRIMARY_DIAGNOSIS_CODE,Pass,Column names match
+SECONDARY_DIAGNOSIS_CODE,SECONDARY_DIAGNOSIS_CODE,Pass,Column names match
+PHARMACY_PATIENT_ID,PHARMACY_PATIENT_ID,Pass,Column names match
+ONESOURCE_PATIENT_ID,,Fail,Column names do not match
+PATIENT_CONSENT_FLAG,PATIENT_CONSENT_FLAG,Pass,Column names match
+PATIENT_CONSENT_DATE,PATIENT_CONSENT_DATE,Pass,Column names match
+PATIENT_CONSENT_EXPIRATION_DATE,PATIENT_CONSENT_EXPIRATION_DATE,Pass,Column names match
+PATIENT_STATE,PATIENT_STATE,Pass,Column names match
+PATIENT_ZIP_CODE,PATIENT_ZIP_CODE,Pass,Column names match
+PATIENT_GENDER,PATIENT_GENDER,Pass,Column names match
+PATIENT_YEAR_OF_BIRTH,PATIENT_YEAR_OF_BIRTH,Pass,Column names match
+CUSTOMER_STATUS,,Fail,Column names do not match
+CUSTOMER_SUBSTATUS,,Fail,Column names do not match
+CUSTOMER_SUBSTATUS_DESCRIPTION,,Fail,Column names do not match
+STATUS_DATE,STATUS_DATE,Pass,Column names match
+PRIOR_AUTH_REQUIRED,PRIOR_AUTH_REQUIRED,Pass,Column names match
+PRIOR_AUTH_START_DATE,PRIOR_AUTH_START_DATE,Pass,Column names match
+PRIOR_AUTH_EXPIRATION_DATE,PRIOR_AUTH_EXPIRATION_DATE,Pass,Column names match
+PRESCRIBER_NPI,PRESCRIBER_NPI,Pass,Column names match
+PRESCRIBER_DEA,PRESCRIBER_DEA,Pass,Column names match
+PRESCRIBER_SLN,PRESCRIBER_SLN,Pass,Column names match
+SP_PRESCRIBER_ID,SP_PRESCRIBER_ID,Pass,Column names match
+PRESCRIBER_LAST_NAME,PRESCRIBER_LAST_NAME,Pass,Column names match
+PRESCRIBER_FIRST_NAME,PRESCRIBER_FIRST_NAME,Pass,Column names match
+PRESCRIBER_MIDDLE_INITIAL,,Fail,Column names do not match
+PRESCRIBER_SUFFIX,PRESCRIBER_SUFFIX,Pass,Column names match
+PRESCRIBER_ADDRESS1,PRESCRIBER_ADDRESS1,Pass,Column names match
+PRESCRIBER_ADDRESS2,PRESCRIBER_ADDRESS2,Pass,Column names match
+PRESCRIBER_CITY,PRESCRIBER_CITY,Pass,Column names match
+PRESCRIBER_STATE,PRESCRIBER_STATE,Pass,Column names match
+PRESCRIBER_ZIP,PRESCRIBER_ZIP,Pass,Column names match
+PRESCRIBER_PHONE,PRESCRIBER_PHONE,Pass,Column names match
+PRESCRIBER_FAX,PRESCRIBER_FAX,Pass,Column names match
+PRESCRIBER_SPECIALTY,PRESCRIBER_SPECIALTY,Pass,Column names match
+FACILITY_NAME,FACILITY_NAME,Pass,Column names match
+SPECIALTY_PHARMACY_NPI,SPECIALTY_PHARMACY_NPI,Pass,Column names match
+SPECIALTY_PHARMACY_DEA,SPECIALTY_PHARMACY_DEA,Pass,Column names match
+SPECIALTY_PHARMACY_HIN,SPECIALTY_PHARMACY_HIN,Pass,Column names match
+SPECIALTY_PHARMACY_NCPDP,SPECIALTY_PHARMACY_NCPDP,Pass,Column names match
+SPECIALTY_PHARMACY_NAME,,Fail,Column names do not match
+SPECIALTY_PHARMACY_CODE,,Fail,Column names do not match
+SPECIALTY_PHARMACY_ADDRESS1,SPECIALTY_PHARMACY_ADDRESS1,Pass,Column names match
+SPECIALTY_PHARMACY_ADDRESS2,SPECIALTY_PHARMACY_ADDRESS2,Pass,Column names match
+SPECIALTY_PHARMACY_CITY,SPECIALTY_PHARMACY_CITY,Pass,Column names match
+SPECIALTY_PHARMACY_STATE,SPECIALTY_PHARMACY_STATE,Pass,Column names match
+SPECIALTY_PHARMACY_ZIP,SPECIALTY_PHARMACY_ZIP,Pass,Column names match
+PRIMARY_PAYER_NAME,,Fail,Column names do not match
+PRIMARY_PAYER_TYPE,PRIMARY_PAYER_TYPE,Pass,Column names match
+PRIMARY_PAYER_SUBTYPE,,Fail,Column names do not match
+PRIMARY_PAYER_BIN,,Fail,Column names do not match
+PRIMARY_PAYER_PCN,,Fail,Column names do not match
+PRIMARY_PAYER_GROUP_ID,,Fail,Column names do not match
+PRIMARY_PAYER_IIN,,Fail,Column names do not match
+MEDICAL_COVERAGE_FLAG,,Fail,Column names do not match
+PRIMARY_COVERAGE_TYPE,PRIMARY_COVERAGE_TYPE,Pass,Column names match
+PRIMARY_PLAN_NAME,PRIMARY_PLAN_NAME,Pass,Column names match
+PRIMARY_PLAN_TYPE,PRIMARY_PLAN_TYPE,Pass,Column names match
+SECONDARY_PAYER_NAME,,Fail,Column names do not match
+SECONDARY_PAYER_TYPE,SECONDARY_PAYER_TYPE,Pass,Column names match
+SECONDARY_PAYER_SUBTYPE,SECONDARY_PAYER_SUBTYPE,Pass,Column names match
+SECONDARY_PBM_BIN,SECONDARY_PBM_BIN,Pass,Column names match
+SECONDARY_PBM_PCN,SECONDARY_PBM_PCN,Pass,Column names match
+SECONDARY_PBM_GROUP_ID,SECONDARY_PBM_GROUP_ID,Pass,Column names match
+SECONDARY_PBM_IIN,,Fail,Column names do not match
+SECONDARY_COVERAGE_TYPE,SECONDARY_COVERAGE_TYPE,Pass,Column names match
+SECONDARY_PLAN_NAME,SECONDARY_PLAN_NAME,Pass,Column names match
+SECONDARY_PLAN_TYPE,SECONDARY_PLAN_TYPE,Pass,Column names match
+PLAN_PAID_AMOUNT,PLAN_PAID_AMOUNT,Pass,Column names match
+PATIENT_RESPONSIBILITY,PATIENT_RESPONSIBILITY,Pass,Column names match
+PATIENT_DEDUCTIBLE,PATIENT_DEDUCTIBLE,Pass,Column names match
+PATIENT_COPAY,PATIENT_COPAY,Pass,Column names match
+PATIENT_COINSURANCE,PATIENT_COINSURANCE,Pass,Column names match
+SECONDARY_PLAN_PAID_AMOUNT,SECONDARY_PLAN_PAID_AMOUNT,Pass,Column names match
+SECONDARY_PATIENT_RESPONSIBILITY,SECONDARY_PATIENT_RESPONSIBILITY,Pass,Column names match
+SECONDARY_PATIENT_DEDUCTIBLE,SECONDARY_PATIENT_DEDUCTIBLE,Pass,Column names match
+SECONDARY_PATIENT_COPAY,SECONDARY_PATIENT_COPAY,Pass,Column names match
+SECONDARY_PATIENT_COINSURANCE,SECONDARY_PATIENT_COINSURANCE,Pass,Column names match
+OTHER_PAYER_AMOUNT,OTHER_PAYER_AMOUNT,Pass,Column names match
+COPAY_ASSISTANCE_AMOUNT,COPAY_ASSISTANCE_AMOUNT,Pass,Column names match
+RX_NUMBER,RX_NUMBER,Pass,Column names match
+RX_NUMBER_OF_REFILLS,RX_NUMBER_OF_REFILLS,Pass,Column names match
+RX_TYPE,,Fail,Column names do not match
+RX_DATE,,Fail,Column names do not match
+RX_FILL_NUMBER,,Fail,Column names do not match
+NUMBER_OF_REFILLS_REMAINING,,Fail,Column names do not match
+PRIOR_DISPENSES,,Fail,Column names do not match
+QUANTITY_DISPENSED,QUANTITY_DISPENSED,Pass,Column names match
+UNIT_OF_MEASURE,,Fail,Column names do not match
+SIG_CODE,,Fail,Column names do not match
+DAYS_SUPPLY,,Fail,Column names do not match
+PRODUCT_LOT_NUMBER,,Fail,Column names do not match
+SHIP_DATE,,Fail,Column names do not match
+SHIP_CARRIER,,Fail,Column names do not match
+SHIP_LOCATION,,Fail,Column names do not match
+SHIP_ADDRESS1,,Fail,Column names do not match
+SHIP_ADDRESS2,,Fail,Column names do not match
+SHIP_CITY,,Fail,Column names do not match
+SHIP_STATE,,Fail,Column names do not match
+SHIP_ZIP,,Fail,Column names do not match
+SITE_OF_CARE_TYPE,,Fail,Column names do not match
+SITE_OF_CARE_ADDRESS1,,Fail,Column names do not match
+SITE_OF_CARE_ADDRESS2,,Fail,Column names do not match
+SITE_OF_CARE_CITY,,Fail,Column names do not match
+SITE_OF_CARE_STATE,,Fail,Column names do not match
+,SOURCE_CODE,Fail,Column names do not match
+,THIRD_DIAGNOSIS_CODE,Fail,Column names do not match
+,FOURTH_DIAGNOSIS_CODE,Fail,Column names do not match
+,FIFTH_DIAGNOSIS_CODE,Fail,Column names do not match
+,LONGITUDINAL_PATIENT_ID,Fail,Column names do not match
+,PHARMACY_PATIENT_ID_2,Fail,Column names do not match
+,HUB_PATIENT_ID,Fail,Column names do not match
+,ACCESS_360_ID,Fail,Column names do not match
+,SP_RAW_STATUS,Fail,Column names do not match
+,SP_RAW_SUBSTATUS_CODE,Fail,Column names do not match
+,SP_RAW_SUBSTATUS_DESCRIPTION,Fail,Column names do not match
+,STATUS,Fail,Column names do not match
+,SUBSTATUS_CODE,Fail,Column names do not match
+,SUBSTATUS_DESCRIPTION,Fail,Column names do not match
+,PRESCRIBER_MIDDLE_NAME,Fail,Column names do not match
+,MASTERED_SPECIALTY_PHARMACY_NAME,Fail,Column names do not match
+,RAW_PRIMARY_PAYER_NAME,Fail,Column names do not match
+,MASTERED_PRIMARY_PAYER_NAME,Fail,Column names do not match
+,MASTERED_PRIMARY_PAYER_ID,Fail,Column names do not match
+,PRIMARY_PBM_BIN,Fail,Column names do not match
+,PRIMARY_PBM_PCN,Fail,Column names do not match
+,PRIMARY_PBM_GROUP_ID,Fail,Column names do not match
+,PLAN_CODE,Fail,Column names do not match
+,RAW_SECONDARY_PAYER_NAME,Fail,Column names do not match
+,MASTERED_SECONDARY_PAYER_NAME,Fail,Column names do not match
+,MASTERED_SECONDARY_PAYER_ID,Fail,Column names do not match
+,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,Fail,Column names do not match

@@ -1,0 +1,5 @@
+PHARMACY_TRANSACTION_ID,Column Name,Required Field (Y/N),Value,Status,Details
+99574207,PRIMARY_DIAGNOSIS_CODE,C,Missing,Fail,PRIMARY_DIAGNOSIS_CODE is a required field and is missing value.
+99803560,PRIMARY_DIAGNOSIS_CODE,C,Missing,Fail,PRIMARY_DIAGNOSIS_CODE is a required field and is missing value.
+99804745,PRIMARY_DIAGNOSIS_CODE,C,Missing,Fail,PRIMARY_DIAGNOSIS_CODE is a required field and is missing value.
+,HUB_PATIENT_ID,C,NA,Fail,HUB_PATIENT_ID is a required field but does not exist in the CSV file.

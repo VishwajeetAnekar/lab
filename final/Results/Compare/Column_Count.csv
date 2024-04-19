@@ -1,0 +1,2 @@
+Feature,extract.csv,extract-old.csv,Status,Result
+Column Count,114,103,Fail,Number of columns are not equal.
