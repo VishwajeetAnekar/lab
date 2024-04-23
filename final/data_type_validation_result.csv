@@ -1,0 +1,51 @@
+PHARMACY_TRANSACTION_ID,Column Name,Data Type,Status,Details
+1,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+1,Transaction_Date,DATE,Fail,Value '2022-01-01' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+1,Amount,DOUBLE,Pass,
+1,State,VARCHAR,Pass,
+1,Product_Code,VARCHAR,Pass,
+2,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+2,Transaction_Date,DATE,Fail,Value '2022-01-02' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+2,Amount,DOUBLE,Pass,
+2,State,VARCHAR,Pass,
+2,Product_Code,VARCHAR,Pass,
+3,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+3,Transaction_Date,DATE,Fail,Value '2022-01-03' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+3,Amount,DOUBLE,Pass,
+3,State,VARCHAR,Pass,
+3,Product_Code,VARCHAR,Pass,
+4,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+4,Transaction_Date,DATE,Fail,Value '2022-01-04' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+4,Amount,DOUBLE,Pass,
+4,State,VARCHAR,Pass,
+4,Product_Code,VARCHAR,Pass,
+5,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+5,Transaction_Date,DATE,Fail,Value '2022-01-05' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+5,Amount,DOUBLE,Pass,
+5,State,VARCHAR,Pass,
+5,Product_Code,VARCHAR,Pass,
+6,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+6,Transaction_Date,DATE,Fail,Value '2022-01-06' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+6,Amount,DOUBLE,Pass,
+6,State,VARCHAR,Fail,Value 'XYZ' in column 'State' exceeds maximum length of 2 characters.
+6,Product_Code,VARCHAR,Pass,
+7,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+7,Transaction_Date,DATE,Fail,Value '2022-01-07' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+7,Amount,DOUBLE,Pass,
+7,State,VARCHAR,Pass,
+7,Product_Code,VARCHAR,Pass,
+8,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+8,Transaction_Date,DATE,Fail,Value '2022-01-08' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+8,Amount,DOUBLE,Pass,
+8,State,VARCHAR,Pass,
+8,Product_Code,VARCHAR,Pass,
+9,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+9,Transaction_Date,DATE,Fail,Value '2022-01-09' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+9,Amount,DOUBLE,Pass,
+9,State,VARCHAR,Pass,
+9,Product_Code,VARCHAR,Pass,
+10,PHARMACY_TRANSACTION_ID,VARCHAR,Pass,
+10,Transaction_Date,DATE,Fail,Value '2022-01-10' in column 'Transaction_Date' does not match the expected format 'YYYYMMDD'.
+10,Amount,DOUBLE,Pass,
+10,State,VARCHAR,Pass,
+10,Product_Code,VARCHAR,Pass,

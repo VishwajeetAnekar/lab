@@ -1,0 +1,6 @@
+PHARMACY_TRANSACTION_ID,Column Name,Field Format,Requirement,Value,Status,Details
+1,SeventhField,YYYYMMDDHHMMSS,Y,20200000000000.0,Fail,SeventhField does not match the YYYYMMDDHHMMSS format.
+2,SeventhField,YYYYMMDDHHMMSS,Y,,Fail,SeventhField is a required field and is missing value.
+3,SeventhField,YYYYMMDDHHMMSS,Y,,Fail,SeventhField is a required field and is missing value.
+4,SeventhField,YYYYMMDDHHMMSS,Y,20300000000000.0,Fail,SeventhField does not match the YYYYMMDDHHMMSS format.
+5,SeventhField,YYYYMMDDHHMMSS,Y,20300000000000.0,Fail,SeventhField does not match the YYYYMMDDHHMMSS format.

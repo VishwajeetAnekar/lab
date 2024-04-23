@@ -1,0 +1,6 @@
+Field ID,Field Name,Description,Data Type,Field Format,Requirement
+1,PHARMACY_TRANSACTION_ID,Transaction ID,VARCHAR(10),,Y
+2,Transaction_Date,Date of Transaction,DATE,YYYYMMDD,Y
+3,Amount,Transaction Amount,DOUBLE,,Y
+4,State,State code,VARCHAR(2),,Y
+5,Product_Code,Product code,VARCHAR(5),,N
