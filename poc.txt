@@ -1,0 +1,99 @@
+Data Validation Framework - Proof of Concept (POC)
+Overview
+This document provides a detailed proof of concept (POC) for a Data Validation Framework implemented using a Behavior-Driven Development (BDD) approach. The framework aims to ensure data quality and integrity across various data extracts by performing multiple validations.
+
+Features
+Compare Extracts
+Column Name Validation: Validates if the column names in two CSV extracts are identical.
+Column Count Validation: Validates if the number of columns in two CSV extracts are the same.
+Row Count Validation: Validates if the number of rows in two CSV extracts are the same.
+Unique Value Validation: Validates if the unique values in two CSV extracts are the same.
+Extract Validation
+Field Name Validation: Validates if the field names in the CSV extract match the configured field names.
+Field Format Validation: Validates the format of the fields as per the configuration.
+Datatype Validation: Validates the data types of the fields as per the configuration.
+Expected Values Validation: Validates if the values in the CSV extract match the expected values as per the configuration.
+Whitespace Validation: Validates if there are any unnecessary whitespaces in the CSV extract.
+Required Field Validation: Validates if all required fields are present in the CSV extract.
+Duplicate Key Validation: Validates if there are any duplicate keys in the CSV extract.
+Maximum Length Validation: Validates if the length of the values in the CSV extract does not exceed the maximum length specified in the configuration.
+Implementation
+Technology Stack
+Python: Language used for scripting and data manipulation.
+Pandas: Library used for data analysis and manipulation.
+Behave: BDD framework used for writing and executing tests.
+Confluence: Documentation platform.
+Setup Instructions
+Virtual Environment (venv) Setup
+Navigate to your project directory:
+bash
+Copy code
+cd path/to/your/project
+Create a virtual environment:
+bash
+Copy code
+python -m venv venv
+Activate the virtual environment:
+Windows:
+bash
+Copy code
+.\venv\Scripts\activate
+Linux/Mac:
+bash
+Copy code
+source venv/bin/activate
+Install required packages:
+bash
+Copy code
+pip install pandas behave
+Running BDD Tests
+Place the BDD feature files in a directory named features.
+Place the step definitions in a directory named steps.
+Navigate to the project directory and activate the virtual environment.
+Run the BDD tests using the following command:
+bash
+Copy code
+behave
+Code Structure
+The POC includes the following Python scripts:
+
+compare_extracts.py: Contains functions for comparing two CSV extracts based on column names, column count, row count, and unique values.
+extract_validation.py: Contains functions for validating a single CSV extract based on field name, field format, datatype, expected values, whitespace, required fields, duplicate keys, and maximum length.
+steps.py: Contains step definitions for BDD tests.
+Code Snippets
+compare_extracts.py
+python
+Copy code
+# Function to compare column names
+def compare_column_names(csv_file1, csv_file2):
+    # Implementation
+    pass
+extract_validation.py
+python
+Copy code
+# Function for datatype validation
+def datatype_validation(config_file, csv_file):
+    # Implementation
+    pass
+steps.py
+python
+Copy code
+# BDD step definitions
+from behave import given, when, then
+
+@given('I have two CSV files "{csv_file1}" and "{csv_file2}"')
+def step_impl(context, csv_file1, csv_file2):
+    # Implementation
+    pass
+
+@when('I compare the extracts')
+def step_impl(context):
+    # Implementation
+    pass
+
+@then('the column names should be identical')
+def step_impl(context):
+    # Implementation
+    pass
+Conclusion
+The POC demonstrates the capabilities of the Data Validation Framework in ensuring data quality and integrity across various data extracts using a BDD approach. Future enhancements may include additional validation types, improved error handling, and integration with other data quality tools.
